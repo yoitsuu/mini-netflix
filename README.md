@@ -1,3 +1,16 @@
+## Project design:
+1) Create component for listing movies on main page
+2) Create component for individual movie listings on /movie/[id] page
+
+1) Home page fetches movie via search w/ substring "movie", then uses component to render
+2) /movie/[id] page fetches movie info by id, then uses component to populate page
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

@@ -24,5 +24,7 @@ npm run dev
 
 
 Notes:
-General structure was cleaner a few commits ago, supporting both query params
+1) General structure was cleaner a few commits ago, supporting both query params
 and typical routes led to need for messy routes. (almost duplicate page.tsx files)
+
+2) Most styles were from me eyeballing spacing on netflix directory, and tinkering until things looked "nice"

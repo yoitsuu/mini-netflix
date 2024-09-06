@@ -1,9 +1,4 @@
-interface Movie {
-  Title: string;
-  Poster: string;
-  imdbRating: string;
-  Plot: string;
-}
+import { Movie } from "@/interfaces/MovieInterface";
 
 interface MovieDetailsProps {
   movie: Movie;

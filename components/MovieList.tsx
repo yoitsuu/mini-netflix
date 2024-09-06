@@ -1,10 +1,5 @@
 import Link from 'next/link';
-
-interface Movie {
-  imdbID: string;
-  Poster: string;
-  Title: string;
-}
+import { Movie } from '@/interfaces/MovieInterface';
 
 interface MovieListProps {
   movies: Movie[];
